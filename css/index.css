@@ -26,6 +26,7 @@ body{
     color: var(--color-body);
     font-size: 2.4rem;
     margin: 1rem;
+    line-height: 1.5;
 }
 
 h1, h2, h3{
@@ -267,4 +268,31 @@ a{
     .input{
         font-size: 1.5rem;
     }
+}
+
+/* Card */
+
+.card{
+    border-radius: 7px;
+    box-shadow: 0 0 20px 10px #f3f3f3;
+    overflow: hidden;
+    width: 34rem;
+}
+
+.card__top{
+    text-transform: capitalize;
+}
+
+.card__top, .card__bottom{
+    padding: 2rem 3rem;
+}
+
+.card--primary .card__top{
+    background: var(--color-primary);
+    color: #fff;
+}
+
+.card--secondary .card__top{
+    background: var(--color-secondary);
+    color: #fff;
 }
