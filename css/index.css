@@ -494,10 +494,12 @@ a{
 
 .testimonial__image{
     width: 100%;
+    
 }
 
 .testimonial__image-container{
     position: relative;
+    margin: 0 3rem;
 }
 
 .testimonial__image-container > .icon-container{
@@ -597,6 +599,7 @@ a{
   
 .block__header {
 text-align: center;
+margin-bottom: 4rem;
 }
 
 .block__heading {
@@ -785,3 +788,4 @@ margin: 0 auto;
     max-width: 700px;
   }
 }
+/* Testimonial Block */
