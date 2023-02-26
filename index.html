@@ -25,8 +25,6 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
-    <!-- TODO: Remove the normalize.css link tag -->
-    <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Moshify</title>
@@ -34,8 +32,9 @@
   <body>
     <!-- Navbar -->
     <nav class="nav nav--dark collapsible">
-      <!-- TODO: add aria-label to this anchor tag field -->
-      <a class="nav__brand" href="/"><img src="images/logo.svg" alt="" /></a>
+      <a aria-label="Moshify" class="nav__brand" href="/"
+        ><img src="images/logo.svg" alt=""
+      /></a>
       <svg class="icon icon--white nav__toggler">
         <use xlink:href="images/sprite.svg#menu"></use>
       </svg>
@@ -81,8 +80,8 @@
         </p>
       </header>
       <div class="input-group">
-        <!-- TODO: add aria-label to this input field -->
         <input
+          aria-label="Domain"
           type="text"
           class="input"
           placeholder="Enter domain name here..."
