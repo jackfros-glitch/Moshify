@@ -4,7 +4,7 @@ Moshiify is a Cloud hosting platform
 
 ## GETTING STARTED
 
-- BASE URL: this app is currently hosted on Netlify `https://jazzy-syrniki-db99cd.netlify.app/`
+- BASE URL: This website is currently hosted on Netlify `https://jazzy-syrniki-db99cd.netlify.app/`
 
 ## TECH STACK
 
