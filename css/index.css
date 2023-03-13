@@ -496,8 +496,7 @@ a{
 }
 
 .testimonial__image{
-    width: 100%;
-    
+    width: 100%; 
 }
 
 .testimonial__image-container{
@@ -510,12 +509,17 @@ a{
     top: 3rem;
     right: -32px;
 }
-
+.testimonial .grid--col-2{
+    grid-template-columns: minmax(20px, 1fr);
+}
 @media screen and (min-width:768px){
     .testimonial .quote, .testimonial .quote__author{
         font-size: 2.4rem;
     }
 
+    .testimonial .grid--col-2{
+        grid-template-columns: repeat(2, 1fr);
+    }
     .testimonial .quote{
         margin-left: 6rem;
     }
